@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safeguarding</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Safeguarding</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#booking">Book Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">Safeguarding</h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-3 text-center">
+                    <img src="https://via.placeholder.com/200x150?text=Security+Image+1" alt="Security Image 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="lead">Welcome to Safeguarding, your trusted partner in security solutions. We provide comprehensive protection services tailored to meet your unique needs. Our team of experienced professionals is dedicated to ensuring your safety and peace of mind.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="https://via.placeholder.com/200x150?text=Security+Image+2" alt="Security Image 2" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="py-5" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <!-- Services on the left -->
+                <div class="col-lg-6">
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <img src="https://via.placeholder.com/100x100?text=Service+1" alt="Service 1" class="img-fluid rounded">
+                        </div>
+                        <div class="col-8">
+                            <h5>Security Consultation</h5>
+                            <p>Expert advice on security measures and risk assessment for your home or business.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <img src="https://via.placeholder.com/100x100?text=Service+2" alt="Service 2" class="img-fluid rounded">
+                        </div>
+                        <div class="col-8">
+                            <h5>CCTV Installation</h5>
+                            <p>Professional installation of surveillance systems with 24/7 monitoring capabilities.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <img src="https://via.placeholder.com/100x100?text=Service+3" alt="Service 3" class="img-fluid rounded">
+                        </div>
+                        <div class="col-8">
+                            <h5>Access Control</h5>
+                            <p>Advanced access control systems including key cards, biometrics, and smart locks.</p>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-4">
+                            <img src="https://via.placeholder.com/100x100?text=Service+4" alt="Service 4" class="img-fluid rounded">
+                        </div>
+                        <div class="col-8">
+                            <h5>Alarm Systems</h5>
+                            <p>State-of-the-art alarm systems with rapid response and mobile alerts.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Large image on the right -->
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <img src="https://via.placeholder.com/500x400?text=Main+Security+Image" alt="Main Security Image" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <!-- Booking Form on the left -->
+                <div class="col-lg-4 mb-4" id="booking">
+                    <h4 class="mb-3">Book a Consultation</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="date" class="form-label">Preferred Date</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Tell us about your security needs"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Booking</button>
+                    </form>
+                </div>
+                
+                <!-- Testimonials in the center -->
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3 text-center">Testimonials</h4>
+                    <div class="testimonial mb-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="https://via.placeholder.com/60x60?text=Client+1" alt="Client 1" class="rounded-circle me-3">
+                            <div>
+                                <strong>John Smith</strong>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="small">"Excellent service! They installed our security system quickly and professionally. Highly recommend!"</p>
+                    </div>
+                    <div class="testimonial mb-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="https://via.placeholder.com/60x60?text=Client+2" alt="Client 2" class="rounded-circle me-3">
+                            <div>
+                                <strong>Sarah Johnson</strong>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="small">"Great team to work with. They assessed our needs and provided a tailored solution for our office."</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="https://via.placeholder.com/60x60?text=Client+3" alt="Client 3" class="rounded-circle me-3">
+                            <div>
+                                <strong>Mike Williams</strong>
+                                <div class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="small">"Peace of mind knowing our home is protected. The 24/7 monitoring service is fantastic!"</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Us on the right -->
+                <div class="col-lg-4 mb-4" id="contact">
+                    <h4 class="mb-3">Contact Us</h4>
+                    <table class="table table-dark table-borderless">
+                        <tbody>
+                            <tr>
+                                <td><i class="bi bi-geo-alt-fill"></i></td>
+                                <td>123 Security Street<br>London, UK EC1A 1BB</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-telephone-fill"></i></td>
+                                <td>+44 20 1234 5678</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-envelope-fill"></i></td>
+                                <td>info@safeguarding.com</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-clock-fill"></i></td>
+                                <td>Mon-Fri: 9am - 6pm<br>Sat: 10am - 4pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h5 class="mt-4 mb-3">Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <hr class="border-secondary">
+                    <p class="mb-0">&copy; 2024 Safeguarding. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
