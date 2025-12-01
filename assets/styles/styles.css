@@ -41,7 +41,6 @@ body {
 /* CSS Variables */
 :root {
     --primary-font: "MedievalSharp", sans-serif;
-    --bs-primary: #6e0bbe;
     --secondary-font: "Alegreya", cursive;
     --primary-color: #6e0bbe;
     --secondary-color: #9db5ca;
@@ -68,6 +67,7 @@ header h1 {
     font-weight: bold;
     font-family: var(--secondary-font);
     font-size: 4.5rem;
+    background-color: var(--primary-color);
 }
 
 header .lead {
