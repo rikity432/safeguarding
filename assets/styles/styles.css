@@ -11,11 +11,7 @@
     flex-shrink: 0;
 }
 
-/* header image and styles */
-#header {
-    background-image: url(/assets/images/background.jpg);
-    background-size: cover;
-}
+/* header text styles (background now inlined in HTML) */
 #headtext p {
     color: var(--text-color);
     font-weight: bold;
@@ -85,10 +81,7 @@ header .lead {
     font-size: 3rem;
 }
 
-main {
-    background-image: url(/assets/images/background.jpg);
-    background-size: cover;
-}
+/* main background now inlined in HTML */
 
 main h2 {
     color: var(--secondary-color);
