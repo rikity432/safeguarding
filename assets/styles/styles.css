@@ -13,7 +13,7 @@
 
 /* header image and styles */
 #header {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(assets/images/background.jpg);
     background-size: cover;
 }
 #headtext p {
@@ -86,7 +86,7 @@ header .lead {
 }
 
 main {
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(assets/images/background.jpg);
     background-size: cover;
 }
 
