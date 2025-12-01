@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center mx-auto" href="#">
                 <i class="bi bi-shield-lock-fill me-2"></i>
@@ -41,17 +41,17 @@
     </nav>
 
     <!-- Header Section -->
-    <header class="py-5 bg-light">
+    <header class="py-5" id="header">
         <div class="container">
-            <h1 class="text-center mb-4">Safeguard assets</h1>
+            <h1 class="text-center mb-4">SAFEGUARD ASSETS</h1>
             <div class="row align-items-center justify-content-center">
-                <div class="col-md-3 text-center">
+                <div class="col-md-4 text-center">
                     <img src="assets/images/header1.jpg" alt="Security Image 1" class="img-fluid rounded">
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-4 text-center" id="headtext">
                     <p class="lead">Got a safe that needs guarding? Our safe guarding guards will safely guard your safe and keep your safe safe!</p>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-md-4 text-center">
                     <img src="assets/images/header2.jpg" alt="Security Image 2" class="img-fluid rounded">
                 </div>
             </div>
@@ -61,13 +61,13 @@
     <!-- Main Section -->
     <main class="py-5" id="services">
         <div class="container">
-            <h2 class="text-center mb-5">Our Services</h2>
+            <h2 class="text-center mb-5 col-3" id="serviceheader">Our Services</h2>
             <div class="row">
                 <!-- Services on the left -->
-                <div class="col-lg-6">
+                    <div class="col-lg-5">
                     <div class="row mb-4">
                         <div class="col-4">
-                            <img src="assets/images/longterm.jpg" alt="Service 1" class="img-fluid rounded">
+                            <img src="assets/images/longterm.jpg" alt="long term" aria-label="long term" class="img-fluid rounded">
                         </div>
                         <div class="col-8">
                             <h5>Long-term safe guarding</h5>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="row mb-4">
                         <div class="col-4">
-                            <img src="assets/images/temporary.jpg" alt="Service 2" class="img-fluid rounded">
+                            <img src="assets/images/temporary.jpg" alt="short term" aria-label="short term" class="img-fluid rounded">
                         </div>
                         <div class="col-8">
                             <h5>Short-term safe guarding</h5>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="row mb-4">
                         <div class="col-4">
-                            <img src="assets/images/rental.jpg" alt="Service 3" class="img-fluid rounded">
+                            <img src="assets/images/rental.jpg" alt="rental" aria-label="rental" class="img-fluid rounded">
                         </div>
                         <div class="col-8">
                             <h5>Safe rental</h5>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="row mb-4">
                         <div class="col-4">
-                            <img src="assets/images/cctv.jpg" alt="Service 4" class="img-fluid rounded">
+                            <img src="assets/images/cctv.jpg" alt="cctv" aria-label="cctv" class="img-fluid rounded">
                         </div>
                         <div class="col-8">
                             <h5>Alarm Systems and CCTV</h5>
@@ -104,8 +104,8 @@
                     </div>
                 </div>
                 <!-- Large image on the right -->
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                    <img src="assets/images/main.jpg" alt="Main Security Image" class="img-fluid rounded shadow">
+                    <div class="col-lg-7 d-flex align-items-center justify-content-end">
+                        <img id="mainimage" src="assets/images/main.jpg" alt="Main Security Image" class="img-fluid rounded shadow d-block">
                 </div>
             </div>
         </div>
@@ -155,56 +155,50 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="testimonial p-3">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <img src="assets/images/testi1.jpg" alt="Client 1" class="rounded-circle me-3">
-                                        <div>
-                                            <strong>Captain Jack Silver</strong>
-                                            <div class="text-warning">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
+                                    <div class="text-center mb-2">
+                                        <img src="assets/images/testi1.jpg" alt="Client 1" class="rounded-circle d-block mx-auto">
+                                        <strong class="d-block mt-2">Captain Jack Silver</strong>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
                                         </div>
                                     </div>
-                                    <p class="small mb-0">"Arr! Best safe guards in the seven seas!"</p>
+                                    <p class="small mb-4">"Arr! Best safe guards in the seven seas!"</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="testimonial p-3">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <img src="assets/images/testi2.jpg" alt="Client 2" class="rounded-circle me-3">
-                                        <div>
-                                            <strong>Dimitry Antonov</strong>
-                                            <div class="text-warning">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-half"></i>
-                                            </div>
+                                    <div class="text-center mb-2">
+                                        <img src="assets/images/testi2.jpg" alt="Client 2" class="rounded-circle d-block mx-auto">
+                                        <strong class="d-block mt-2">Dimitry Antonov</strong>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
                                         </div>
                                     </div>
-                                    <p class="small mb-0">"Great team to work with. They assessed our needs and provided a tailored solution for our office."</p>
+                                    <p class="small mb-4">"Great team to work with. They assessed our needs and provided a tailored solution for our office."</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="testimonial p-3">
-                                    <div class="d-flex align-items-center mb-2">
-                                        <img src="assets/images/testi3.jpg" alt="Client 3" class="rounded-circle me-3">
-                                        <div>
-                                            <strong>Selene Montgomey</strong>
-                                            <div class="text-warning">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
+                                    <div class="text-center mb-2">
+                                        <img src="assets/images/testi3.jpg" alt="Client 3" class="rounded-circle d-block mx-auto">
+                                        <strong class="d-block mt-2">Selene Montgomey</strong>
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
                                         </div>
                                     </div>
-                                    <p class="small mb-0">"Peace of mind knowing our home is protected. The 24/7 monitoring service is fantastic!"</p>
+                                    <p class="small mb-4">"Peace of mind knowing our home is protected. The 24/7 monitoring service is fantastic!"</p>
                                 </div>
                             </div>
                         </div>
