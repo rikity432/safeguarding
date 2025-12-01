@@ -28,7 +28,7 @@ body {
 
 /* Header Styles */
 header h1 {
-    color: #0d6efd;
+    color: var(--primary-color);
     font-weight: bold;
     font-family: var(--secondary-font);
 }
